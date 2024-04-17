@@ -1,0 +1,245 @@
+/* *{
+    background-color: rgb(5, 27, 52);
+} */
+/* 處理下方留白 */
+html {
+    background-color: rgb(5, 27, 52);
+    height: 100%;
+}
+
+/* 通用設定 */
+.fs-20px {
+    font-size: 20px;
+}
+
+.w-70px {
+    width: 70px;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.bg-darkblue {
+    background-color: rgb(5, 27, 52);
+}
+
+.fs-index {
+    font-size: calc(0.5rem + 1vw);
+    font-weight: bold;
+    line-height: 1.2;
+    color: white;
+    text-shadow: 0 0 0.2em blue, 0 0 0.2em yellow;
+}
+
+.fs-index1 {
+    font-weight: bold;
+    line-height: 1.2;
+    color: white;
+    text-shadow: 0 0 0.2em blue, 0 0 0.2em yellow;
+}
+
+.fs-index2 {
+    font-weight: bold;
+    color: black;
+    font-size: 80px;
+    text-shadow: 0 0 0.1em rgb(4, 255, 0), 0 0 0.1em black;
+}
+
+.fs-index3 {
+    font-weight: bold;
+    color: white;
+    font-size: 40px;
+    line-height: 60px;
+    text-shadow: 0 0 0.2em red, 0 0 0.2em black;
+}
+
+.fs-index4 {
+    font-weight: bold;
+    color: black;
+    font-size: 30px;
+    line-height: 60px;
+}
+
+.fs-game {
+    font-size: calc(1rem + 4.5vw);
+    font-weight: bold;
+    line-height: 1.2;
+    color: white;
+    text-shadow: 0 0 0.2em blue, 0 0 0.2em yellow;
+}
+
+.fs-game2 {
+    font-weight: bold;
+    color: white;
+    text-shadow: 0 0 0.2em blue, 0 0 0.2em rgb(255, 0, 0);
+}
+
+.fs-modal1 {
+    font-weight: bold;
+    color: balck;
+    font-size: 25px;
+}
+
+.fs-main {
+    font-size: calc(1rem + 4.5vw);
+    font-weight: bold;
+    line-height: 1.2;
+    color: white;
+    text-shadow: 0 0 0.2em red, 0 0 0.2em yellow;
+}
+
+.fs-form {
+    margin-top: 0.25rem;
+    font-size: 0.7em;
+    color: lightgray;
+}
+
+.bd-white {
+    border-style: solid;
+    border-color: white;
+}
+
+.bd-game {
+    border-bottom: 4px solid #FFB703;
+}
+
+.bd-intro {
+    border-bottom: 4px solid black;
+}
+
+/* icon */
+.icon-set {
+    color: white;
+    font-size: 30px;
+}
+
+/* footer */
+.footerset {
+    width: 100%;
+    /* 寬度的80% */
+    text-align: center;
+    line-height: 50px;
+    background-color: rgb(5, 27, 52);
+    color: white;
+}
+
+/* 上邊界位移 */
+.mt109 {
+    margin-top: 109px;
+}
+
+/* 中央大圖+文字高度 */
+.h600 {
+    height: 600px;
+}
+
+.h550 {
+    height: 550px;
+}
+
+.h700 {
+    height: 700px;
+}
+
+.h100 {
+    height: 100px;
+}
+
+/* 中央文字 */
+.index-text {
+    text-align: center;
+    color: white;
+    font-size: 39px;
+}
+
+/* 登入按鈕 */
+.bg-register {
+    background-image: url("../images/register.png");
+    /* 背景圖片設定 */
+    line-height: 150px;
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0 0 0.2em rgb(5, 27, 52), 0 0 0.2em rgb(5, 27, 52);
+}
+
+.bg-index2 {
+    background-image: url("../images/index_background2.jpg");
+}
+
+.bg-game2 {
+    background-image: url("../images/game_background2.png");
+}
+
+.bg-game3 {
+    background-image: url("../images/game_background3.png");
+}
+
+.bg-draw {
+    background-image: url("../images/draw_background.png");
+}
+
+.bg-draw2 {
+    background-image: url("../images/draw2_background.png");
+}
+
+.position-register {
+    top: 70%;
+    right: 0;
+}
+
+.position-field {
+    bottom: 5px;
+    left: 110px;
+}
+
+.position-draw {
+    bottom: 0px;
+    left: 32.5%;
+}
+
+.position-draw2 {
+    top: 10px;
+    right: 10px;
+}
+
+.set-draw {
+    position: relative;
+    width: 120px;
+    height: 0;
+    border-width: 0 10px 30px;
+    border-style: solid;
+    border-color: transparent transparent white;
+    color: rgb(5, 27, 52);
+    font-size: large;
+    font-weight: bolder;
+}
+
+.set-draw2 {
+    position: relative;
+    width: 70px;
+    height: 10;
+    background-color: #ffc107;
+    color: black;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.bg-image{
+    background-image: url('../images/index_background1.jpg'); /* 背景圖片設定 */
+    background-attachment: fixed; /* 背景圖片固定 */
+    background-position: center; /*背景圖片置中 */
+    line-height: 600px; /*文字行高 */
+    color: lightyellow; /* 文字顏色 */
+    font-size: 50px; /*文字大小 */
+    font-weight: bolder;
+    text-align: center; /* 文字置中 */
+    text-shadow: 0 0 0.4em rgb(235, 114, 8), 0 0 0.4em black;
+}

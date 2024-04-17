@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 網頁標題 -->
+    <title>Magic Power Baseball</title>
+    <!-- css引用 -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- bootstrap引用 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <!-- Font Aweson 引用(icon) -->
+    <script src="https://kit.fontawesome.com/21238a294d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- nav 導覽列 -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-darkblue fixed-top">
+        <div class="container-fluid bd-game">
+            <!-- logo -->
+            <a class="navbar-brand ms-5" href="./index.html"><img src="./images/logo.png" alt="logo" class="w-70px"></a>
+            <p class="fs-index text-center me-5 mt-3">Magic Power<br>Baseball</p>
+            <!-- 小視窗縮合box -->
+            <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- 導覽列內容 -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 fs-20px">
+                    <li class="nav-item">
+                        <a class="nav-link mx-5 text-white fs-index1" href="./news.html">最新消息</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-5 text-white fs-index1" href="./report.html">問題回報</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav mb-2 mb-lg-0 fs-20px bd-white rounded-3">
+                    <li class="nav-item">
+                        <a class="nav-link text-white fs-index1" href="./game.html">進入遊戲</a>
+                    </li>
+                </ul>
+                <!-- icon -->
+                <form class="d-flex">
+                    <li class="nav-item mt-1">
+                        <i class="icon-set mx-3 fa-brands fa-facebook"></i>
+                        <i class="icon-set mx-2 fa-brands fa-instagram "></i>
+                        <i class="icon-set mx-2 fa-brands fa-x-twitter "></i>
+                    </li>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="bg-darkblue mt109">
+        <div class="container">
+            <div class="row align-items-start">
+                <div class="col-6 h600 mt-5">
+                    <img src="./images/report.jfif" alt="background" height="100%">
+                </div>
+                <div class="col-6">
+                    <p class="text-white fs-main text-center">問題回報</p>
+                    <form>
+                        <div class="mb-3">
+                            <label for="InputName" class="form-label text-white">姓名</label>
+                            <input type="text" class="form-control" id="Name" placeholder="請輸入姓名">
+                        </div>
+                        <div class="mb-3">
+                            <label for="InputAccount" class="form-label text-white">遊戲帳號</label>
+                            <input type="text" class="form-control" id="InputAccount" placeholder="請輸入遊戲帳號">
+                        </div>
+                        <div class="mb-3">
+                            <label for="InputAccount" class="form-label text-white">連絡電話</label>
+                            <input type="text" class="form-control" id="InputAccount" placeholder="手機/電話">
+                        </div>
+                        <div class="mb-3">
+                            <label for="InputEmail" class="form-label text-white">Email address</label>
+                            <input type="email" class="form-control" id="InputEmail" placeholder="magicpower@gmail.com">
+                            <div id="emailHelp" class="fs-form">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="InputPurpose" class="form-label text-white">聯絡目的</label>
+                            <select class="form-select" aria-label="聯絡目的選單">
+                                <option selected>--請選擇--</option>
+                                <option value="1">帳號登入相關</option>
+                                <option value="2">遊戲bug回報</option>
+                                <option value="3">改版建議</option>
+                                <option value="4">其他</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="InputDescription" class="form-label text-white">問題詳述</label>
+                            <textarea class="form-control" id="InputDescription" rows="3"></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <label for="InputFile" class="form-label text-white">檔案上傳</label>
+                            <input class="form-control" type="file" id="InputFile">
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label text-white" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-warning">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footerset">
+            <p>
+                ©Magic Power baseball Company All rights reserved.
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
